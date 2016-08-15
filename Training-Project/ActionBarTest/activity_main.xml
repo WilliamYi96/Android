@@ -14,4 +14,4 @@
         android:layout_height="wrap_content"
         android:text="隐藏ActionBar"
         android:onClick="hideActionBar"/>
-</LinearLayout>
+</LinearLayout> 
