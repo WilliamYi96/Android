@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TextViewTest</string>
+    <string name="str1">I love Android</string>
+    <string name="str2">I love Android, I love Android, I love Android, I love Android, I love Android, I love Android</string>
+    <string name="str3">邮箱是williamyi96@gmail.com, 电话是13772103675</string>
+    <string name="str4">测试文字</string>
+    <string name="str5">可勾选的文本</string>
+    <string name="hello">密码框密码框密码框密码框密码框密码框密码框密码框密码框</string>
+</resources>
