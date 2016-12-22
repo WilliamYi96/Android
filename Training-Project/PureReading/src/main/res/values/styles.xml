@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
+
+<!--<resources>-->
+    <!--<declare-styleable name="PureReading">-->
+        <!--<attr name="pr_color" format="color"> </attr>-->
+        <!--<attr name="pr_visible" format="boolean"> </attr>-->
+        <!--<attr name="pr_scale" format="integer"> </attr>-->
+        <!--<attr name="pr_transformDuration" format="integer"> </attr>-->
+        <!--<attr name="pr_strokeWidth" format="integer"> </attr>-->
+        <!--<attr name="pr_rtlEnabled" format="boolean"> </attr>-->
+        <!--<attr name="pr_iconState" format="enum">-->
+            <!--<enum name="burger" value="0" > </enum>-->
+            <!--<enum name="arrow" value="1"> </enum>-->
+            <!--<enum name="x" value="2"> </enum>-->
+        <!--</attr>-->
+    <!--</declare-styleable>-->
+<!--</resources>-->

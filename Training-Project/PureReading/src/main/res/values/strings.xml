@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PureReading</string>
+    <string name="welcome">Welcome to the world of Pure Reading!</string>
+    <string name="btnsave">保存并退出</string>
+</resources>

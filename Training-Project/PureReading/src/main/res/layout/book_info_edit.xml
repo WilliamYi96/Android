@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tl1">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvName"
+                android:text="Book Name:"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/etName"
+                android:hint="book name you want to save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:selectAllOnFocus="true"
+                android:textSize="16sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:text="Targeted Finish Reading Time:" />
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/etTime"
+                android:inputType="datetime"
+                android:hint="Your disired finish reading time"
+                android:textSize="16sp"
+                android:selectAllOnFocus="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tvType"
+                android:text="Book Type:"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/etType"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Machine Learning, Data Mining,etc"
+                android:textSize="16sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tvURL"
+                android:text="Book URL"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/etURL"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Book URL from your remote database"
+                android:selectAllOnFocus="true"
+                android:textSize="16sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tvRemarks"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Remarks:"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <EditText
+                android:id="@+id/etRemarks"
+                android:hint="Write down your idea about this book or anything that you want to write"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save and Quit"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
